@@ -2,3 +2,5 @@ tweepy
 jupyter
 pandas
 numpy
+textblob
+matplotlib
