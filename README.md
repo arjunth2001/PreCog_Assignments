@@ -4,14 +4,14 @@ Assignments for PreCog Selections 2020
 
 ## Brownie Points Submission
 
-- The webapp for Twitter Analysis is live at [Arjun's Twitter Analysis](https://arjuntwitter.herokuspp.com). It is deployed on Heroku. The code is in WebApp folder. It uses a Jupyter Notebook and Voila to deploy the notebook to Heroku. The site collects 200 tweets on the Trending Hashtag in HYD and does analysis on it. It will take some time to load depending on the availability of 200 tweets on the trending topic since it uses streaming to collect the tweets.
+- The webapp for Twitter Analysis is live at [Arjun's Twitter Analysis](https://arjuntwitter.herokuapp.com). It is deployed on Heroku. The code is in WebApp folder. It uses a Jupyter Notebook and Voila to deploy the notebook to Heroku. The site collects 200 tweets on the Trending Hashtag in HYD and does analysis on it. It will take some time to load depending on the availability of tweets on the trending topic since it uses streaming to collect the tweets.
 - Insightful Extra Analysis has been done on each task and has been explained in their respective files.
 
 ## Submission Structure
 
 ### Task 1
 
-In Task 1, I wrote a report on “How Community Feedback Shapes User Behaviour”by Justin Cheng,Cristian Danescu-Niculescu-Mizil,JureLeskovecof Stanford Universityand Max Planck Institute SWS. The submission is a pdf in the repo as Task1.pdf. All the requirements have been met.
+In Task 1, I wrote a report on “How Community Feedback Shapes User Behaviour” by Justin Cheng,Cristian Danescu-Niculescu-Mizil,JureLeskovecof Stanford Universityand Max Planck Institute SWS. The submission is a pdf in the repo as Task1.pdf. All the requirements have been met.
 
 ### Task 2
 
@@ -35,7 +35,7 @@ The files and their details are as follows:
   - `pdfs= ["Rec_Task/1c1edeee-a13e-4b2e-90be-eb1dd03c3384.pdf","Rec_Task/a6b29367-f3b7-4fb1-a2d0-077477eac1d9.pdf","Rec_Task/d9f8e6d9-660b-4505-86f9-952e45ca6da0.pdf","Rec_Task/EICHERMOT.pdf"]` change this to the paths of the PDF files.
   - `myclient = pymongo.MongoClient("mongodb://localhost:27017/") mydb = myclient["mydatabase"]` Change this to the mongodb and database required. It is worth noting that if the collection already exists the code drops it.
 - `mongodatabase` is the mongodb dump for the given files. It can be restored using `mongorestore` command
-- `Rec_Task` is the folder containing the given PDFs
+- `Rec_Task` is the folder containing the given PDFs and .csv, .json files for them by tabula
 - requirements.txt- has the python3 modules required to run the code. Install them using pip.
 
 #### Task B
