@@ -2,6 +2,10 @@
 
 Assignments for PreCog Selections 2020
 
+## Brownie Points Submission
+
+The webapp for Twitter Analysis is live at [Arjun's Twitter Analysis](https://arjuntwitter.herokuspp.com). It is deployed on Heroku. The code is in WebApp folder. It uses a Jupyter Notebook and Voila to deploy the notebook to Heroku. The site collects 200 tweets on the Trending Hashtag in HYD and does analysis on it. It will take some time to load depending on the availability of 200 tweets on the trending topic since it uses streaming to collect the tweets.
+
 ## Submission Structure
 
 ### Task 1
