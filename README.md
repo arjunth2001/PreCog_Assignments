@@ -4,7 +4,8 @@ Assignments for PreCog Selections 2020
 
 ## Brownie Points Submission
 
-The webapp for Twitter Analysis is live at [Arjun's Twitter Analysis](https://arjuntwitter.herokuspp.com). It is deployed on Heroku. The code is in WebApp folder. It uses a Jupyter Notebook and Voila to deploy the notebook to Heroku. The site collects 200 tweets on the Trending Hashtag in HYD and does analysis on it. It will take some time to load depending on the availability of 200 tweets on the trending topic since it uses streaming to collect the tweets.
+- The webapp for Twitter Analysis is live at [Arjun's Twitter Analysis](https://arjuntwitter.herokuspp.com). It is deployed on Heroku. The code is in WebApp folder. It uses a Jupyter Notebook and Voila to deploy the notebook to Heroku. The site collects 200 tweets on the Trending Hashtag in HYD and does analysis on it. It will take some time to load depending on the availability of 200 tweets on the trending topic since it uses streaming to collect the tweets.
+- Insightful Extra Analysis has been done on each task and has been explained in their respective files.
 
 ## Submission Structure
 
@@ -52,3 +53,11 @@ The Task3/task_b has the submissions for Task 3 Subtask b.The files and their de
 - StackOverflowAnalysis.pdf - The PDF version of the Jupyter Notebook
 - requirements.txt - as the python3 modules required to run the code. Install them using pip.
 - Mongodump is uploaded on Google Drive. [Link](https://drive.google.com/drive/folders/1y_liiyeZsoFEdyG6ChLRLTIQLSpJ9gfz?usp=sharing)
+
+##### External Resources Used
+
+- W3 Schools for Pymongo
+- Tweepy Documentation
+- StackOverflow
+- Mongodb Documentation
+- and Documentation of other Libraies used
